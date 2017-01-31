@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PersonalWebsite</title>
+        <%= csrf_meta_tags %>
+
+        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                        <h4>
+                            <a href="/index">Wen Zhang</a>
+                        </h4>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                      <span class="pull-right"><h4><a href="#">About Me</a></h4></span>
+                    </div>
+
+                </div>
+
+            </div>
+            <hr>
+        </header>
+        <%= yield %>
+        <footer>
+          <hr>
+          <div class="row">
+            <div class="col-xs-12 col-md-6 text-center">
+              <p>Contact Information:</p>
+              <p>Email: iwenyou@gmail.com</p>
+              <p>Phone: 650-526-2662</p>
+              <p>Santa Clara, CA</p>
+            </div>
+            <div class="col-xs-12 col-md-6 text-center">
+              <p>Copy Right:</p>
+              <p>Wen Zhang</p>
+              <p>2016-2017</p>
+            </div>
+
+          </div>
+        </footer>
+    </body>
+</html>
