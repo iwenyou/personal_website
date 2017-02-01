@@ -2,29 +2,24 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poiret One', cursive;
 
+}
+
+.header {
 }
 
 .title {
-  font-size: 4em;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  font-color: black;
+  font-size: 5em;
+  margin-top: 55px;
+  margin-bottom: 55px;
 }
 
-.title_move_right {
-  padding-right: 100px;
+a {
+  color: black;
 }
 
-.title_move_left {
-  padding-left: 100px;
+a:link {
+    text-decoration: none;
 }
-
-.hover_change:hover:before {
-        content: '';
-        position: fixed;
-        display: block;
-        top: 0; bottom: 0; left: 0; right: 0;
-        z-index: -1;
-        background-color: grey;
-    }
